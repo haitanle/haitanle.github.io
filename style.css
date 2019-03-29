@@ -1,0 +1,20 @@
+.bio {
+	background-color: #4bbd9b;
+	color: #ffffff;
+	margin: 0;
+}
+
+.bio img {
+	height: 320px;          /* Green */
+	border-radius: 47%;
+}
+
+.description {
+	background-color: #474e5d;   /*Dark Blue */
+	color: #ffffff;
+}
+
+.contact {
+	background-color: #ffffff; /* White */
+    color: #555555;
+}
