@@ -1,7 +1,26 @@
+html, body {
+	height: 100%;
+}
+
+body {
+  font: 20px "Montserrat", sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+}
+
+p {font-size: 16px;}
+
+.navbar {
+	padding-top: 30px;
+    padding-bottom: 25px;
+}
+
 .bio {
 	background-color: #4bbd9b;
 	color: #ffffff;
 	margin: 0;
+	padding-top: 75px;
+    padding-bottom: 80px;
 }
 
 .bio img {
@@ -17,4 +36,14 @@
 .contact {
 	background-color: #ffffff; /* White */
     color: #555555;
+}
+
+.orange-text {
+	color: orange;
+	margin-right: 10px;
+}
+
+footer .container {
+	display: flex;
+	flex-wrap: wrap;
 }
