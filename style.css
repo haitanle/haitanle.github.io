@@ -71,6 +71,10 @@ footer .container {
 	justify-content: center;
 }
 
+.card-body {
+	color: #212529
+}
+
 
 @media screen and (max-width: 255px){
 	h3 {
