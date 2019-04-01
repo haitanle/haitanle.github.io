@@ -70,3 +70,18 @@ footer .container {
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
+
+@media screen and (max-width: 255px){
+	h3 {
+		font-size: 1rem;
+	}
+
+	p {
+		font-size: 14px;
+	}
+
+	.contact .container {
+		font-size: 10px;
+	}
+}
