@@ -75,6 +75,15 @@ footer .container {
 	color: #212529
 }
 
+.modal-content {
+	border: none;
+	background-color: #fff0;
+}
+
+.modal-dialog {
+	max-width: 650px;
+}
+
 
 @media screen and (max-width: 255px){
 	h3 {
