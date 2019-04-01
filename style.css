@@ -15,7 +15,7 @@ p {font-size: 20px;}
     padding-bottom: 25px;
 }
 
-.bio {
+.bio, .projects {
 	background-color: #4bbd9b;
 	color: #ffffff;
 	margin: 0;
