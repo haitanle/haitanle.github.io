@@ -98,3 +98,25 @@ footer .container {
 		font-size: 10px;
 	}
 }
+
+@media screen and (min-width: 770px){
+	.card-body {
+		height: 555px;
+	}
+}
+
+
+@media screen and (min-width: 990px){
+	.card-body {
+		height: 410px;
+	}
+}
+
+
+@media screen and (min-width: 1200px){
+	.card-body {
+		height: 310px;
+	}
+}
+
+
