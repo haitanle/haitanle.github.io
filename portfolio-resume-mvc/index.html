@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tan Le's Resume</title>
+  <link href="css/style.css" rel="stylesheet">
+  <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCyDldqnw5K4hg8dPsaxJUS-Dc60grBn7s"></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+  <div id="main"> 
+
+    <div id="header" class="center-content clear-fix">
+        <h3 id="skills-h3">Skills at a Glance:</h3>
+        <ul id="skills" class="flex-column"></ul>
+     <!--  <ul id="topContacts" class="flex-box">
+        <li class="flex-item"><span class="orange-text">
+        </li>
+      </ul> -->
+    </div>
+
+
+    <div style="clear: both;"></div>
+    <h2>Work Experience</h2>
+    <div id="workExperience" class="gray">
+    </div>
+    
+    <div id="education" class="gray">
+      <h2>Education</h2>
+      <div class="education-entry"></div>
+    </div>
+
+    <div id="mapDiv">
+      <h2>Where I've Lived and Travelled</h2>
+      <div id="map"></div>
+    </div>
+
+    <div id="lets-connect" class="dark-gray">
+      <h2 class="orange center-text">Let's Connect</h2>
+        <ul id="footerContacts" class="flex-box">
+      </ul>
+    </div>
+
+  </div>
+
+  <script src="js/jQuery.js"></script>
+  <script src="js/helper.js"></script>
+  <script src="data/data.js"></script>
+  <script src="js/resumeBuilder.js"></script>
+
+
+  <script>
+
+/**
+    if(document.getElementsByClassName('flex-item').length === 0) {
+      document.getElementById('topContacts').style.display = 'none';
+    }
+    if(document.getElementsByTagName('h1').length === 0) {
+      document.getElementById('header').style.display = 'none';
+    }
+    if(document.getElementsByClassName('work-entry').length === 0) {
+      document.getElementById('workExperience').style.display = 'none';
+    }
+    if(document.getElementsByClassName('project-entry').length === 0) {
+      document.getElementById('projects').style.display = 'none';
+    }
+    if(document.getElementsByClassName('education-entry').length === 0) {
+      document.getElementById('education').style.display = 'none';
+    }
+    if(document.getElementsByClassName('flex-item').length === 0) {
+      document.getElementById('lets-connect').style.display = 'none';
+    }
+    if(document.getElementById('map') === null) {
+      document.getElementById('mapDiv').style.display = 'none';
+    }
+**/
+  </script>
+</body>
+</html>
